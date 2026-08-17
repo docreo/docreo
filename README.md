@@ -4,7 +4,7 @@
 
 **docreo@mail.signalproof.com**
 
-Author • Producer • Educator • Speaker • Software Builder • U.S. Army Gulf War Veteran
+Author • Producer • Educator • Speaker • Software Builder • U.S. Army Cavalry Veteran
 
 I work at the intersection of **human judgment, artificial intelligence, learning design, software systems, media, research, and evidence-backed decision making**.
 
