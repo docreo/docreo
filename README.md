@@ -1,33 +1,67 @@
 # Doc Reo
 
 **Mareo-Ahmir Lawson, M.Ed., M.A.**  
-Author · Producer · Educator · Speaker · U.S. Cavalry Veteran · Builder of **Signalproof**
+Author · Producer · Educator · Speaker · U.S. Cavalry Veteran · Founder of Signalproof
 
-### Human-controlled AI systems. Real tools. Verifiable work.
+# SIGNALPROOF · SAGITTARIUS HORIZON
+
+### One human-controlled AI operating interface. Many models. Clear authority.
+
+**Sagittarius Horizon (V1)** is the current generation we're building at **[Signalproof](https://signalproof.com)**. We're developing a coordinated CLI, model-routing and agent-capability ecosystem designed to bring different AI systems together **without giving up human direction, verification, or recovery**.
 
 > **Control first. AI second. Software third.**  
 > Build signal. Cut noise. Leave proof.
 
-I build at the intersection of **AI, software, learning design, research, and media**. My current focus is **[Signalproof](https://signalproof.com)**: a human-controlled approach to using increasingly capable AI without surrendering authority, accountability, continuity, or the ability to verify and recover.
+**[Explore Horizon ↓](#sagittarius-horizon-four-models-today-room-for-more)** · **[Get the free Community CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)** · **[Build Your Own AI CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/build-your-own-cli)** · **[Signalproof](https://signalproof.com)**
 
-**[Explore the free Community CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)** · **[Build Your Own AI CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/build-your-own-cli)** · **[Signalproof](https://signalproof.com)** · **[AI NO Hype](https://ainohype.com)**
+---
 
-## The CLI is here
+## Sagittarius Horizon: four models today, room for more
+
+Our **full Signalproof CLI** has a **four-model local integration**, bringing the following separately routed model families into a single operator-facing environment:
+
+| Current integrated local routes | What the CLI does |
+| :--- | :--- |
+| **Granite** | Explicit, governed Granite selection |
+| **Qwen** | Explicit, governed Qwen selection |
+| **Gemma** | Explicit, governed Gemma selection |
+| **Ministral** | Explicit, governed Ministral selection |
+
+**Four models are our current integrated starting point, not the limit.** The architecture separates the CLI from model adapters, provider connections, the route registry and the control plane. Additional local models, hosted providers and bounded AI workers can be integrated through their own qualification, permissions, readiness and acceptance processes—not by hard-coding a permanent four-model ceiling.
+
+```text
+                     HUMAN OPERATOR
+                           |
+                     SIGNALPROOF CLI
+                           |
+                  GOVERNANCE / APPROVAL
+                           |
+                   EXACT MODEL ROUTING
+                     /   /   \    \
+              GRANITE QWEN GEMMA MINISTRAL
+                           |
+              + MORE QUALIFIED ROUTES
+                           |
+                  VERIFICATION / PROOF
+                           |
+                  HUMAN REVIEW / RECOVERY
+```
+
+**The model is a worker behind the system—not the system's authority.** The direction for Horizon includes explicit identity, permissions, approvals, budget boundaries, model and agent routing, verification, an evidence trail and recovery.
+
+**Engineering status:** The four-model CLI has been developed and tested on our local engineering line. The Horizon V1 generation candidate has documented isolated Windows staging acceptance; full public release and permanent Horizon promotion are separate gates. Individual route health depends on the actual runtime. **A supported architecture is not a claim that every future model or provider is installed, connected or approved today.** The current technical CLI line is **V2/RD3** and its accepted terminal visual is **V3/RD4**; those are component versions, separate from the **Horizon V1** generation name.
+
+## Free public edition: start here
 
 [![Approved public Signalproof Community CLI terminal preview](https://raw.githubusercontent.com/docreo/docreo-Signalproof-Public1/main/docs/assets/signalproof-cli-preview.svg)](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)
 
-*Actual public Community CLI presentation, illustrated with sanitized local-demo information. The public edition is separate from the private engineering runtime.*
+*This approved sanitized preview shows the free **Community CLI**, not the larger four-model Horizon engineering build.*
 
-### Free Signalproof Community CLI
+**[Download / inspect the Community CLI →](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)**
 
-**[Open the public CLI repository →](https://github.com/docreo/docreo-Signalproof-Public1)**
+The separately released, free **Community CLI 0.2.0** currently includes **two** exact, local, advisory-only Ollama routes: `qwen3.6:latest` and `granite4.2:8b`. The larger engineering CLI already incorporates Gemma and Ministral, but those routes **have not yet been published as part of this Community Edition**.
 
-The public **Community CLI 0.2.0** is a local-first, advisory-only command-line interface that gives the human operator explicit control of which model answers. It currently supports two exact, local Ollama routes:
-
-- **Qwen:** `qwen3.6:latest`
-- **Granite:** `granite4.2:8b`
-
-No silent model substitution. No inherited access to Signalproof's private infrastructure. No model tool authority. Optional model downloads require human approval; model weights are not bundled.
+Community CLI principles: exact model selection, no silent fallback, loopback-only transport, explicit approval before optional model downloads, and no inherited access to private Signalproof infrastructure.
 
 ```bash
 git clone https://github.com/docreo/docreo-Signalproof-Public1.git
@@ -37,48 +71,24 @@ signalproof-community setup
 signalproof-community chat granite
 ```
 
-**Requirements:** Python 3.11+, local Ollama, and sufficient resources for the selected upstream model. Follow the [Community CLI setup guide](https://github.com/docreo/docreo-Signalproof-Public1/blob/main/community-cli/README.md) for installation and platform details.
+Requires Python 3.11+, local Ollama and sufficient resources for your selected model. Model weights are not bundled. See the [Community CLI documentation](https://github.com/docreo/docreo-Signalproof-Public1/blob/main/community-cli/README.md).
 
-## Public projects: use it, learn it, build on it
+## Public tools, education and operating methods
 
-| Project | What you can explore |
+| Public project | Explore |
 | :--- | :--- |
-| **[Signalproof Community CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)** | Free, local-only, exact-route Qwen/Granite CLI with an explicit advisory boundary. |
-| **[Build Your Own AI CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/build-your-own-cli)** | Step-by-step guide, starter template, and six CLI-builder skills for designing a governed multi-model CLI. |
-| **[SignalFlow Mini](https://github.com/docreo/SignalFlow-Mini)** | Free, local push-to-talk transcription for Windows, built around a guarded clipboard-to-target workflow. |
-| **[Signalproof Skills](https://github.com/docreo/Signalproof-Skills)** | Public operating skills, commands, and bounded loops—including `/dsp`—for research, building, verification, recovery, and handoff. |
+| **[Signalproof Community CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)** | A working public entry point to explicit, local model routing. |
+| **[Build Your Own AI CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/build-your-own-cli)** | A practical guide, starter template and six CLI-builder skills for designing your own extensible, governed CLI. |
+| **[SignalFlow Mini](https://github.com/docreo/SignalFlow-Mini)** | A free local Windows push-to-talk transcription tool with guarded text return. |
+| **[Signalproof Skills + /dsp](https://github.com/docreo/Signalproof-Skills)** | Reusable public commands, skills and bounded loops for research, build, testing, verification, recovery and handoff. |
 
-These are separately published public projects. **Public source and documentation do not confer access to private Signalproof systems.** See the [public distribution boundary](https://github.com/docreo/docreo-Signalproof-Public1/blob/main/PUBLIC-BOUNDARY.md) and each project's license and third-party notices.
+Public code is intentionally separate from private engineering systems, tenant data, infrastructure and credentials. Read the [public distribution boundary](https://github.com/docreo/docreo-Signalproof-Public1/blob/main/PUBLIC-BOUNDARY.md). Each project has its own release status, license and applicable third-party notices.
 
-## The larger build: Signalproof Sagittarius Horizon
+## Why we're building it
 
-**Sagittarius Horizon** is the current development direction for the broader Signalproof experience: a coordinated CLI, governed model and agent surfaces, and a human control plane built around explicit authority, permissions, approval, verification, evidence, and recovery.
+**[Signalproof](https://signalproof.com)** is a human operating standard for the age of AI: systems, methods and tools designed to increase machine capability **without silently reducing human authority**. **[AI NO Hype](https://ainohype.com)** connects practical AI education with the judgment people need before automating important work.
 
-**The Community CLI is the public entry point—not a release of the full Horizon system.** The wider architecture is under development. Publicly available features and download instructions are documented only in their respective public repositories.
-
-```text
-        HUMAN OPERATOR
-               |
-    AUTHORITY + APPROVALS
-               |
-       GOVERNED ROUTING
-               |
-      BOUNDED AI WORKERS
-               |
-    VERIFICATION + EVIDENCE
-               |
-     HUMAN REVIEW / RECOVERY
-```
-
-The principle behind the work: **the model is a worker behind the system, not the system's authority.**
-
-## The mission beyond the code
-
-**[Signalproof](https://signalproof.com)** builds human-controlled AI systems, operating methods, and practical tools. **[AI NO Hype](https://ainohype.com)** explains how to use AI with clarity and discernment—so people can move from learning to deliberate execution rather than automating confusion.
-
-My work also draws on learning design, publishing, broadcasting, film, music, and veteran advocacy. GitHub is where publicly releasable software, documentation, and verifiable project history can be inspected—not a mirror of private development systems.
-
-## Connect
+I build at the intersection of software, learning design, research, business strategy and media. My background also spans film and television, music, broadcasting, publishing and veteran advocacy. This GitHub profile showcases the work available for public inspection while the larger Horizon platform advances through its own engineering and release gates.
 
 **[Signalproof](https://signalproof.com)** · **[AI NO Hype](https://ainohype.com)** · **[DocReo.com](https://docreo.com)** · **[Email](mailto:docreo@mail.signalproof.com)**
 
