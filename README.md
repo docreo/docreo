@@ -1,110 +1,85 @@
 # Doc Reo
 
-### Mareo-Ahmir Lawson, M.Ed., M.A.
+**Mareo-Ahmir Lawson, M.Ed., M.A.**  
+Author · Producer · Educator · Speaker · U.S. Cavalry Veteran · Builder of **Signalproof**
 
-**docreo@mail.signalproof.com**
+### Human-controlled AI systems. Real tools. Verifiable work.
 
-Author • Producer • Educator • Speaker • Polymath • U.S. Cavalry Veteran
+> **Control first. AI second. Software third.**  
+> Build signal. Cut noise. Leave proof.
 
-I work at the intersection of **human judgment, artificial intelligence, learning design, software systems, media, research, and evidence-backed decision making**.
+I build at the intersection of **AI, software, learning design, research, and media**. My current focus is **[Signalproof](https://signalproof.com)**: a human-controlled approach to using increasingly capable AI without surrendering authority, accountability, continuity, or the ability to verify and recover.
 
-My current work centers on **Signalproof**, a human-controlled operating standard for the age of artificial intelligence.
+**[Explore the free Community CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)** · **[Build Your Own AI CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/build-your-own-cli)** · **[Signalproof](https://signalproof.com)** · **[AI NO Hype](https://ainohype.com)**
 
-> **Control first. AI second. Software third.**
->
-> **Build signal. Cut noise. Leave proof.**
+## The CLI is here
 
-## Signalproof
+[![Approved public Signalproof Community CLI terminal preview](https://raw.githubusercontent.com/docreo/docreo-Signalproof-Public1/main/docs/assets/signalproof-cli-preview.svg)](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)
 
-Signalproof is a practical framework, software ecosystem, research program, and governed operating discipline for working with increasingly capable AI while preserving meaningful human authority.
+*Actual public Community CLI presentation, illustrated with sanitized local-demo information. The public edition is separate from the private engineering runtime.*
 
-The core question is not simply whether AI can perform a task. It is whether people and organizations can gain the benefits of AI **without silently losing control over decisions, permissions, evidence, continuity, recovery, intellectual property, security boundaries, or accountability**.
+### Free Signalproof Community CLI
 
-Current public work includes:
+**[Open the public CLI repository →](https://github.com/docreo/docreo-Signalproof-Public1)**
 
-- **Human + AI Maturity** — evaluating readiness before increasing automation or agent autonomy
-- **Signalproof Skills** — governed operating skills for AI-assisted research, evaluation, planning, design, building, debugging, verification, recovery, security, documentation, release, handoff, learning, and milestone closeout
-- **Build Ledger methodology** — preserving decisions, evidence, versions, rollback state, lessons, and development continuity
-- **AI and agent evaluation** — deciding when to adopt, adapt, integrate, contain, block, deny, or reject tools and agent systems
-- **Human-AI symbiosis research** — increasing machine capability without quietly decreasing human authority
-- **Knowledge transformation systems** — governed methods for converting complex source material into structured technical and learning outputs
+The public **Community CLI 0.2.0** is a local-first, advisory-only command-line interface that gives the human operator explicit control of which model answers. It currently supports two exact, local Ollama routes:
 
-## Public GitHub Work
+- **Qwen:** `qwen3.6:latest`
+- **Granite:** `granite4.2:8b`
 
-### [Signalproof-Skills](https://github.com/docreo/Signalproof-Skills)
+No silent model substitution. No inherited access to Signalproof's private infrastructure. No model tool authority. Optional model downloads require human approval; model weights are not bundled.
 
-The public Signalproof operating-skill suite and technical governance source.
+```bash
+git clone https://github.com/docreo/docreo-Signalproof-Public1.git
+cd docreo-Signalproof-Public1/community-cli
+python install.py
+signalproof-community setup
+signalproof-community chat granite
+```
 
-Its operating disciplines include:
+**Requirements:** Python 3.11+, local Ollama, and sufficient resources for the selected upstream model. Follow the [Community CLI setup guide](https://github.com/docreo/docreo-Signalproof-Public1/blob/main/community-cli/README.md) for installation and platform details.
 
-`Research → Evaluate → Investigate → Plan → Design → Readiness → Build → Debug → Verify → Review → Security / Recovery → Release → Document → Closeout → Handoff → Learn`
+## Public projects: use it, learn it, build on it
 
-Reusable lessons move through a governed maturity path:
+| Project | What you can explore |
+| :--- | :--- |
+| **[Signalproof Community CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)** | Free, local-only, exact-route Qwen/Granite CLI with an explicit advisory boundary. |
+| **[Build Your Own AI CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/build-your-own-cli)** | Step-by-step guide, starter template, and six CLI-builder skills for designing a governed multi-model CLI. |
+| **[SignalFlow Mini](https://github.com/docreo/SignalFlow-Mini)** | Free, local push-to-talk transcription for Windows, built around a guarded clipboard-to-target workflow. |
+| **[Signalproof Skills](https://github.com/docreo/Signalproof-Skills)** | Public operating skills, commands, and bounded loops—including `/dsp`—for research, building, verification, recovery, and handoff. |
 
-`DISCOVERED → CANDIDATE → TESTED → APPROVED → ACTIVE → DEPRECATED → RETIRED`
+These are separately published public projects. **Public source and documentation do not confer access to private Signalproof systems.** See the [public distribution boundary](https://github.com/docreo/docreo-Signalproof-Public1/blob/main/PUBLIC-BOUNDARY.md) and each project's license and third-party notices.
 
-The repository uses protected `main`, pull-request flow, consistency checks, provenance, explicit evidence classes, recovery-aware change control, and public security/reporting boundaries.
+## The larger build: Signalproof Sagittarius Horizon
 
-## What I Build
+**Sagittarius Horizon** is the current development direction for the broader Signalproof experience: a coordinated CLI, governed model and agent surfaces, and a human control plane built around explicit authority, permissions, approval, verification, evidence, and recovery.
 
-My broader work includes:
+**The Community CLI is the public entry point—not a release of the full Horizon system.** The wider architecture is under development. Publicly available features and download instructions are documented only in their respective public repositories.
 
-- local and hybrid AI systems
-- human-controlled agent and automation architectures
-- AI readiness and capability-assessment tools
-- media, voice, audio, and production systems
-- technical-information and knowledge-transformation systems
-- research, opportunity, and decision-intelligence tools
-- educational systems and learning experiences
-- publishing, broadcasting, music, film, and digital media
+```text
+        HUMAN OPERATOR
+               |
+    AUTHORITY + APPROVALS
+               |
+       GOVERNED ROUTING
+               |
+      BOUNDED AI WORKERS
+               |
+    VERIFICATION + EVIDENCE
+               |
+     HUMAN REVIEW / RECOVERY
+```
 
-I approach software development as more than code generation. A trustworthy system also needs **requirements, architecture, bounded authority, evidence, verification, recovery, documentation, provenance, and a release path that can be inspected and reproduced**.
+The principle behind the work: **the model is a worker behind the system, not the system's authority.**
 
-## Human + AI Maturity
+## The mission beyond the code
 
-**Do not automate confusion.**
+**[Signalproof](https://signalproof.com)** builds human-controlled AI systems, operating methods, and practical tools. **[AI NO Hype](https://ainohype.com)** explains how to use AI with clarity and discernment—so people can move from learning to deliberate execution rather than automating confusion.
 
-Understand the system first. Identify what matters. Establish permissions and boundaries. Verify what is true. Protect what already works. Then increase machine capability deliberately.
-
-Human + AI Maturity is not a competition between people and machines. It is a discipline for determining **what humans should retain, what machines should augment, what can safely be delegated, and what must remain accountable to a person**.
-
-A practical maturity sequence is:
-
-`Understand → Learn → Fix → Govern → Automate → Scale`
-
-## Working Philosophy
-
-The recurring principle across my work is simple:
-
-> **AI capability should increase human capability without silently reducing human authority.**
-
-That means asking more than whether an AI system *can* perform an action. It also means asking:
-
-- Should it perform the action?
-- Who authorized it?
-- What evidence supports the decision?
-- What does it have access to?
-- What happens when it fails?
-- Can the human understand and reverse the result?
-- What should remain human-controlled?
-
-## About Me
-
-I am **Doc Reo** — **Mareo-Ahmir Lawson, M.Ed., M.A.**
-
-My background spans software and product development, learning design and education, film and television, broadcasting, music, writing, publishing, business strategy, military service, and veteran advocacy.
-
-GitHub is part of the evidence trail for this work: version history, review, provenance, governed changes, reproducible documentation, and public inspection where appropriate.
+My work also draws on learning design, publishing, broadcasting, film, music, and veteran advocacy. GitHub is where publicly releasable software, documentation, and verifiable project history can be inspected—not a mirror of private development systems.
 
 ## Connect
 
-- **Email:** [docreo@mail.signalproof.com](mailto:docreo@mail.signalproof.com)
-- **Signalproof:** https://Signalproof.com
-- **AI No Hype:** https://AINoHype.com
-- **GitHub:** https://github.com/docreo
-
----
-
-### AI Without the Hype
+**[Signalproof](https://signalproof.com)** · **[AI NO Hype](https://ainohype.com)** · **[DocReo.com](https://docreo.com)** · **[Email](mailto:docreo@mail.signalproof.com)**
 
 **Human authority with proof.**
