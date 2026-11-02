@@ -12,7 +12,7 @@ Author · Producer · Educator · Speaker · U.S. Cavalry Veteran · Founder of 
 > **Control first. AI second. Software third.**  
 > Build signal. Cut noise. Leave proof.
 
-**[Explore Horizon ↓](#sagittarius-horizon-four-models-today-room-for-more)** · **[Get the free Community CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)** · **[Build Your Own AI CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/build-your-own-cli)** · **[Signalproof](https://signalproof.com)**
+**[Explore Horizon ↓](#sagittarius-horizon-four-models-today-room-for-more)** · **[Get the free Community CLI](https://github.com/docreo/SignalproofIntelligence/tree/main/community-cli)** · **[Build Your Own AI CLI](https://github.com/docreo/SignalproofIntelligence/tree/main/build-your-own-cli)** · **[Signalproof](https://signalproof.com)**
 
 ---
 
@@ -53,36 +53,36 @@ Our **full Signalproof CLI** has a **four-model local integration**, bringing th
 
 ## Free public edition: start here
 
-[![Approved public Signalproof Community CLI terminal preview](https://raw.githubusercontent.com/docreo/docreo-Signalproof-Public1/main/docs/assets/signalproof-cli-preview.svg)](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)
+[![Approved public Signalproof Community CLI terminal preview](https://raw.githubusercontent.com/docreo/SignalproofIntelligence/main/docs/assets/signalproof-cli-preview.svg)](https://github.com/docreo/SignalproofIntelligence/tree/main/community-cli)
 
 *This approved sanitized preview shows the free **Community CLI**, not the larger four-model Horizon engineering build.*
 
-**[Download / inspect the Community CLI →](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)**
+**[Download / inspect the Community CLI →](https://github.com/docreo/SignalproofIntelligence/tree/main/community-cli)**
 
 The separately released, free **Community CLI 0.2.0** currently includes **two** exact, local, advisory-only Ollama routes: `qwen3.6:latest` and `granite4.2:8b`. The larger engineering CLI already incorporates Gemma and Ministral, but those routes **have not yet been published as part of this Community Edition**.
 
 Community CLI principles: exact model selection, no silent fallback, loopback-only transport, explicit approval before optional model downloads, and no inherited access to private Signalproof infrastructure.
 
 ```bash
-git clone https://github.com/docreo/docreo-Signalproof-Public1.git
-cd docreo-Signalproof-Public1/community-cli
+git clone https://github.com/docreo/SignalproofIntelligence.git
+cd SignalproofIntelligence/community-cli
 python install.py
 signalproof-community setup
 signalproof-community chat granite
 ```
 
-Requires Python 3.11+, local Ollama and sufficient resources for your selected model. Model weights are not bundled. See the [Community CLI documentation](https://github.com/docreo/docreo-Signalproof-Public1/blob/main/community-cli/README.md).
+Requires Python 3.11+, local Ollama and sufficient resources for your selected model. Model weights are not bundled. See the [Community CLI documentation](https://github.com/docreo/SignalproofIntelligence/blob/main/community-cli/README.md).
 
 ## Public tools, education and operating methods
 
 | Public project | Explore |
 | :--- | :--- |
-| **[Signalproof Community CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/community-cli)** | A working public entry point to explicit, local model routing. |
-| **[Build Your Own AI CLI](https://github.com/docreo/docreo-Signalproof-Public1/tree/main/build-your-own-cli)** | A practical guide, starter template and six CLI-builder skills for designing your own extensible, governed CLI. |
+| **[Signalproof Community CLI](https://github.com/docreo/SignalproofIntelligence/tree/main/community-cli)** | A working public entry point to explicit, local model routing. |
+| **[Build Your Own AI CLI](https://github.com/docreo/SignalproofIntelligence/tree/main/build-your-own-cli)** | A practical guide, starter template and six CLI-builder skills for designing your own extensible, governed CLI. |
 | **[SignalFlow Mini](https://github.com/docreo/SignalFlow-Mini)** | A free local Windows push-to-talk transcription tool with guarded text return. |
 | **[Signalproof Skills + /dsp](https://github.com/docreo/Signalproof-Skills)** | Reusable public commands, skills and bounded loops for research, build, testing, verification, recovery and handoff. |
 
-Public code is intentionally separate from private engineering systems, tenant data, infrastructure and credentials. Read the [public distribution boundary](https://github.com/docreo/docreo-Signalproof-Public1/blob/main/PUBLIC-BOUNDARY.md). Each project has its own release status, license and applicable third-party notices.
+Public code is intentionally separate from private engineering systems, tenant data, infrastructure and credentials. Read the [public distribution boundary](https://github.com/docreo/SignalproofIntelligence/blob/main/PUBLIC-BOUNDARY.md). Each project has its own release status, license and applicable third-party notices.
 
 ## Why we're building it
 
